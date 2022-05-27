@@ -34,7 +34,7 @@ public class BaseClass {
 
 	/**
 	 * this method is used to open excel file, property file and get connection of database
-	 * 
+	 * Baseclass
 	 * @throws IOException
 	 */
 
