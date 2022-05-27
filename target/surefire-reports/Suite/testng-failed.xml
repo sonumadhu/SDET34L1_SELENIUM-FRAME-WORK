@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" verbose="0" name="Failed suite [Suite]">
+  <test thread-count="5" verbose="0" name="Test(failed)">
+    <classes>
+      <class name="com.vtiger.ProductSTest.ProductTest">
+        <methods>
+          <include name="afterSuit1Test"/>
+          <include name="afterMethod1Test"/>
+          <include name="beforeClassTest"/>
+          <include name="beforeSuitTest"/>
+          <include name="afterClass1Test"/>
+          <include name="createProduct"/>
+          <include name="beforeMethod1Test"/>
+        </methods>
+      </class> <!-- com.vtiger.ProductSTest.ProductTest -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
